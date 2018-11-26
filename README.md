@@ -1,6 +1,6 @@
-# Chat application with NodeJS, Socket.io, Vue and Element UI
+# Chat application with NodeJS and Vue
 
-This is a simple, real-time chat application written with NodeJS and Vue.
+This is a simple, real-time chat application written with NodeJS and Vue. It uses Socket.IO for real-time features and ElementUI for UI components.
 
 ## How to Run
 
