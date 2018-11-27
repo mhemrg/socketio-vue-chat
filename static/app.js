@@ -12,7 +12,7 @@ var app = new Vue({
         return;
       }
 
-      this.socket = io('http://localhost:3000');
+      this.socket = io(window.location.href);
 
       this.socket.on('message', text => {
         this.messages.push({ text, type: 'receive' });
