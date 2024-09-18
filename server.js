@@ -6,7 +6,7 @@ var staticPath = __dirname + '/static';
 app.use(express.static(staticPath));
 
 const server = app.listen(3000, function () {
-  console.log('Server is listening on http://localhost:3000');
+  console.log('Server is aa listening on http://localhost:3000');
 });
 
 var io = require('socket.io')(server);
